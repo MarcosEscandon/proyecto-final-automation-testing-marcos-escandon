@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Pytest
+.pytest_cache/
+
+# Reports and Logs
+reports/
+logs/
+error_log.txt
+
+# IDE
+.vscode/
+.idea/
