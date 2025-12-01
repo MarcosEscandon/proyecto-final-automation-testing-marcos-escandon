@@ -19,6 +19,8 @@ class CartPage(BasePage):
 
     def fill_checkout_info(self, first_name, last_name, postal_code):
         """Completa la información de envío."""
+        # Wait for the checkout form to be visible
+        self.find_element(self.FIRST_NAME_INPUT)
         self.enter_text(self.FIRST_NAME_INPUT, first_name)
         self.enter_text(self.LAST_NAME_INPUT, last_name)
         self.enter_text(self.POSTAL_CODE_INPUT, postal_code)
