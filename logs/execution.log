@@ -300,3 +300,22 @@
 2025-12-01 08:19:18,300 - INFO - Flujo de checkout completado exitosamente
 2025-12-01 08:19:25,865 - INFO - Iniciando test_logout
 2025-12-01 08:19:27,281 - INFO - Logout exitoso verificado
+2025-12-01 09:40:01,834 - INFO - Iniciando test_get_users_list
+2025-12-01 09:40:02,073 - INFO - GET /users verificado correctamente
+2025-12-01 09:40:02,075 - INFO - Iniciando test_create_user
+2025-12-01 09:40:02,391 - INFO - Usuario creado con ID: 11
+2025-12-01 09:40:02,393 - INFO - Iniciando test_delete_user
+2025-12-01 09:40:02,706 - INFO - Usuario 1 eliminado correctamente
+2025-12-01 09:40:02,708 - INFO - Iniciando test_create_and_get_post_flow
+2025-12-01 09:40:03,006 - INFO - Post creado con ID: 101
+2025-12-01 09:40:03,188 - INFO - Flujo de creación y consulta finalizado
+2025-12-01 09:40:05,227 - INFO - Iniciando test_login_success
+2025-12-01 09:40:06,441 - INFO - Login exitoso verificado
+2025-12-01 09:40:13,939 - INFO - Iniciando test_login_locked_user con locked_out_user
+2025-12-01 09:40:14,649 - INFO - Mensaje de error verificado para usuario bloqueado
+2025-12-01 09:40:22,121 - INFO - Iniciando test_add_to_cart
+2025-12-01 09:40:22,875 - INFO - Producto agregado al carrito correctamente
+2025-12-01 09:40:30,417 - INFO - Iniciando test_checkout_flow
+2025-12-01 09:40:31,585 - INFO - Flujo de checkout completado exitosamente
+2025-12-01 09:40:39,148 - INFO - Iniciando test_logout
+2025-12-01 09:40:40,482 - INFO - Logout exitoso verificado
